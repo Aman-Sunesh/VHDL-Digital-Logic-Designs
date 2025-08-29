@@ -1,0 +1,10 @@
+# Specify the I/O standard to match the external device voltage levels.
+# This ensures proper signal integrity, compatibility, and power optimization.
+
+NET "A" LOC = "B4" | IOSTANDARD = LVCMOS33;
+NET "B" LOC = "K3" | IOSTANDARD = LVCMOS33;
+NET "C" LOC = "L3" | IOSTANDARD = LVCMOS33;
+NET "D" LOC = "P11" | IOSTANDARD = LVCMOS33;
+
+NET "F" LOC = "M5" | IOSTANDARD = LVCMOS33;
+
